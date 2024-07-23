@@ -22,7 +22,7 @@ export default function Subscribe() {
                     {/* Text Section */}
                     <section className="lg:mt-[8%] p-5 text-center md:text-left">
                         <h1 className="text-xl text-[#FFA500] font-semibold mb-6 cursor-pointer">Download Our App</h1>
-                        <h1 className="md:text-7xl text-5xl text-slate-900 mb-3 font-semibold">It's all here.</h1>
+                        <h1 className="md:text-7xl text-5xl text-slate-900 mb-3 font-semibold">It&apos;s all here.</h1>
                         <h1 className="md:text-7xl text-5xl text-slate-900 font-semibold mb-6">All in one App.</h1>
                         <p className="text-xl text-gray-500 mb-6">
                             Discover local on-demand delivery or Pickup from restaurants, nearby grocery and convenience stores, and more.
