@@ -5,7 +5,7 @@ import map0 from '../../../public/images-removebg-preview.png';
 
 export default function Offers() {
     return (
-        <div className="flex mx-[6%] justify-between gap-5 p-5 mt-[5%]">
+        <div className="md:flex flex-wrap mx-[6%] justify-between gap-5 p-5 mt-[5%]">
             {/* Any Day Offers */}
             <div className="flex gap-5 p-5">
                 <div>
