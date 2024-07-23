@@ -5,9 +5,9 @@ import map0 from '../../../public/images-removebg-preview.png';
 
 export default function Offers() {
     return (
-        <div className="flex mx-[6%] justify-between gap-5 p-5">
+        <div className="flex mx-[6%] justify-between gap-5 p-5 mt-[5%]">
             {/* Any Day Offers */}
-            <div className="flex gap-5  p-5">
+            <div className="flex gap-5 p-5">
                 <div>
                     <h1 className="text-4xl font-semibold">Any day <br /> offers</h1>
                     <p className="text-[18px] font-light text-gray-500">
@@ -23,19 +23,13 @@ export default function Offers() {
                     <Image 
                         src={burger} 
                         alt="Delicious burger" 
-                        style={{
-                            position: 'absolute',
-                            left: '-50px',
-                            height: 'auto',
-                            width: '200px',
-                            zIndex: '1'
-                        }} 
+                        className="absolute left-[-50px] h-auto w-[200px] z-[1]" 
                     />
                 </div>
             </div>
 
             {/* Other Flavours */}
-            <div className="flex gap-5  p-5">
+            <div className="flex gap-5 p-5">
                 <div>
                     <h1 className="text-4xl font-semibold">Other <br /> flavours</h1>
                     <p className="text-[18px] font-light text-gray-500">
@@ -51,19 +45,13 @@ export default function Offers() {
                     <Image 
                         src={flavour} 
                         alt="Other flavours" 
-                        style={{
-                            position: 'absolute',
-                            left: '-20px',
-                            height: 'auto',
-                            width: '200px',
-                            zIndex: '1'
-                        }} 
+                        className="absolute left-[-20px] h-auto w-[200px] z-[1]" 
                     />
                 </div>
             </div>
 
             {/* Poco Store */}
-            <div className="flex gap-5  p-5">
+            <div className="flex gap-5 p-5">
                 <div>
                     <h1 className="text-4xl font-semibold">Poco <br /> Store</h1>
                     <p className="text-[18px] font-light text-gray-500">
@@ -79,13 +67,7 @@ export default function Offers() {
                     <Image 
                         src={map0} 
                         alt="Poco store map" 
-                        style={{
-                            position: 'absolute',
-                            left: '-10px',
-                            height: '200px',
-                            width: '130px',
-                            zIndex: '1'
-                        }} 
+                        className="absolute left-[-10px] h-[200px] w-[130px] z-[1]" 
                     />
                 </div>
             </div>
